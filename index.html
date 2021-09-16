@@ -15,11 +15,11 @@
     <body>
 
         <div id="root">
-            <h1 :class="titleClass">
+            <h1 :class="classes[1]">
                 {{ message }}
-                <img :src="logoSrc" :class="logoClass" :alt="logoClass">
+                <img :src="imgUrls[1]" :class="classes[2]" :alt="logoClass">
             </h1>
-            <img :src="imgUrl" :class="imgClass" :alt="imgAlt">
+            <img :src="imgUrls[0]" :class="classes[0]" :alt="imgAlt">
         </div>
 
         <!-- js -->
