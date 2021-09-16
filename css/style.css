@@ -29,3 +29,7 @@ body {
     top: 150px;
     left: 100px;
 }
+.logo {
+    height: 60px;
+    vertical-align: middle;
+}

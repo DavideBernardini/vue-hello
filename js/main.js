@@ -12,6 +12,8 @@ var app = new Vue(
             imgAlt: 'Vue factory',
             imgClass: 'background',
             titleClass: 'title',
+            logoSrc: 'img/logo.svg',
+            logoClass: 'logo'
         }
     }
 )
